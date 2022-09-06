@@ -1,7 +1,12 @@
 <!-- HTML - HyperText Markup Language -->
 
-<html lang="en">
+<!--
+    1. inline
+    2. internal
+    3. external
+-->
 
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,6 +20,29 @@
         <div>
             <h1>Título</h1>
             <p>Lorem, <span class="destaque">ipsum dolor sit amet</span> consectetur adipisicing elit. Distinctio natus animi dignissimos repellendus quidem similique enim harum dolore tempore explicabo amet assumenda, vel quasi sit, corrupti, iure cum blanditiis eius.</p>
+            <!-- Listas -->
+            <!-- Lista ordenada -> ordered list -->
+            <ol class="lista-coisas">
+                <a href="#"><li>Primeiro item</li></a>
+                <a href="#"><li>Segundo item</li></a>
+                <li>
+                    <ol class="lista-coisinhas">
+                        <li>Item item 1</li>
+                        <li>item item 2</li>
+                        <li>item item 3</li>
+                    </ol>
+                </li>
+            </ol>
+            <!-- Lista não ordenada -> unordered list -->
+            <ul>
+                <a href="#"><li>Item 1</li></a>
+                <a href="#"><li>Item 2</li></a>
+            </ul>
+
+            <a href="#">Sou um link</a>
+
+            <hr>
+
             <button class="btn btn-primary">Download</button>
             <button class="btn btn-secondary">Read more</button>
         </div>
